@@ -1,0 +1,25 @@
+{
+  "name": "sensor-am2302",
+  "version": "0.0.1",
+  "description": "node.js module to read data from an am2303 (and others) temperature/humidity sensor",
+  "main": "lib/index.js",
+  "keywords" : [
+     "am2303",
+     "sensor",
+     "dht22",
+     "dht11",
+     "humidity",
+     "temperature",
+     "gpio",
+     "raspberry"
+  ],
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "devDependencies": {
+    "nodeunit" : "*"
+  },
+  "repository": "http://github.com/hoegaarden/sensor-am2302.git",
+  "author": "Hannes Hörl <hannes.hoerl@snowreporter.com>",
+  "license": "BSD"
+}
